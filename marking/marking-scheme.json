@@ -1,1 +1,159 @@
-{}
+{
+  "totalMark": 10,
+  "wsosSections": {
+    "1": "Work organization and management",
+    "2": "Communication and interpersonal skills",
+    "3": "Design Implementation",
+    "4": "Front-End Development",
+    "5": "Back-End Development"
+  },
+  "subCriterions": [
+    {
+      "name": "General information",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "The directory contains 10 subfolders",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "extraDescription": "Names from Task-01 to Task-10",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Each task is committed separately",
+          "maxMark": 0.5,
+          "wsosSection": 2,
+          "extraDescription": "Deduct 0.25 for each missing commit",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Git commit messages are readable and easy to understand",
+          "maxMark": 1,
+          "wsosSection": 2,
+          "judgementScoreDescription": [
+            "one or more git messages contain only a single content line with only one or two words, for example \"update\"",
+            "one or more git messages contain only a single content line",
+            "all git messages contain a subject line, a blank line, and one or more paragraphs explaining the changes, but it is unclear what changed; wording is empty or repetitive",
+            "all git messages contain a subject line, a blank line, and one or more paragraphs explaining the changes; the content is self-contained and the reader can understand what changed without reading the code diff"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design Implementation",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Task 1: HTML/CSS (Easy)",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Task 3: HTML/CSS (Medium)",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Task 6: HTML/CSS (Easy)",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Task 7: HTML/CSS (Medium)",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Task 10: HTML/CSS (Easy)",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Front-End Development",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Task 2: JS (Easy)",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Task 4: JS (Medium)",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Task 5: JS (Easy)",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Task 8: JS (Hard)",
+          "maxMark": 1.5,
+          "wsosSection": 4,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Task 9: JS (Medium)",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Deduct 0.25 for each unmet requirement",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        }
+      ]
+    }
+  ]
+}
